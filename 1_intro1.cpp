@@ -81,7 +81,7 @@ main -> bydefault the first branch where code gets commited
 9. git push -u origin main    => when you are working on same file then no need to write
 origin main again and again instead write only git push
 
-===> 
+===> push operation
 
 let's say mere ko puri folder upload karni thi to mene terminal mai jaake current directory
 ko desired folder pe set kiya then 
