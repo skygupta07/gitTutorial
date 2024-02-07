@@ -46,6 +46,9 @@ code between two commits
 upstream repository
 -> fork is a rough copy
 
+=> terminal mai aapka directory mai repo or folder pai pe hi pointer atka rehta hai 
+tabhi we need to add git add .    so that we could add each file of the current working 
+directory....
 
 
 
