@@ -1,0 +1,163 @@
+/*
+
+git allows to maintain history of the project that at what particular time which person 
+made and what change he made
+
+repositories are basically folders where all our changes are saved
+git -> version control system (just like electronic mail facility)
+while github is an online interface which provides facility to host code online(analogy to 
+gmail , outlook , yahoomail) 
+
+-> any file name that starts with dot . is hidden in nature so we write ls -a
+i.e. ls -a      shows all the hidden command
+
+-> ls command se pata lag jaata hai ki kisme kya hai actually
+-> to create a new file we have touch command
+
+-> git status             => tells us about the current status of the project
+
+-> you can relate the add commmit push with relative going to stage  clicking pic 
+and then saving it in the wedding album
+
+-> git add .     => put all the untracked file (of the current directory) 
+in the staging area
+
+-> cat <file name>            => displays whatever things are availabe in the given file
+
+-> git restore --staged <fileName>        => stage pe chade huye aadmi bina photo 
+kheeche neeche utar diya 
+
+-> git log    => aapke terminal pe hi saari history (kartut) khol ke rakh dega
+-> rm -rf <fileName>       => to delete a file....
+-> each commit has a hash id 
+-> you can't remove any commit from middle
+-> whatever commit hashid I copy all the commit above it will be removed 
+-> git reset <hashid>
+
+-> when I don't even want to commit and also don't want to lose either then use deepika 
+padukone's rule of after adding it in staging area add them in stash area instead
+git stash 
+git stash pop     => all the people who are at the back stage come back to the staging area
+git stash clear   => back of the mind mai committed thi ab waha se bhi nikal diya 
+
+-> git remote add origin <https wala url>
+that is name of the url is now origin
+
+-> git remote -v       => it shows all the urls that are attached to the current folder
+the above url will be attached to the currently working directory
+
+-> if more than one person is working on same project then it is better that you create 
+a separate branch and work on that
+
+-> git branch BranchName   -> creates a new branch with name BranchName
+-> git checkout BranchName   -> now head points to the BranchName
+
+first find the project then fork it then copy url then clone it on local...
+-> git clone <https wala url>   i.e. cloning the forked project to local...
+
+-> from where you have forke the given url is called upstream url...
+git remote add upstream <httpswalaURL>
+git remote -v     => karke saara status dekh liya karo...
+
+-> you cannot push to upstream
+-> one branch can associate with only one pull request 
+-> this is the one of the utmost reason why you should work on different branches 
+and then pull request verify it and collab with others...
+i.e. if a branch has already created a pull request then no more pull request can 
+be generated further...
+
+-> git log mai time ka format stack ki tarah 
+-> agar mereko given line of commit ko avoid karna hai to uske theek neeche waale ko 
+accept karna hoga using its https waala url....
+
+-> since commits are interlinked and if you want to do badmaashiya then 
+git push origin BranchName(say main) -f
+
+-> you have created a fork of some repo into your local machine but say someone has 
+pull request for some feature fn and the maalik allowed it ...now how can I see the 
+updated forked project => ans is you can simply go to your forked repo and click on
+fetch upstream   or you might do it manually
+
+step1
+-> git fetch --all --prune
+prune means those deleted will also be fetched
+
+step2 
+git checkout BranchName
+
+step3
+git reset --hard upstream/main
+
+------to pull
+git pull upstream main
+
+-> before creating a new branch make sure to complete work of the previous branch
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// how to exit vi in terminal
+first type esc multiple time then colon q :q if you simply want to quit without making 
+any changes...
+
+:wq    -> write the changes made in file then quit 
+:wq!   -> if you really want to make changes and then quit then put exclamation mark also
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
