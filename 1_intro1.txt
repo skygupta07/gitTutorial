@@ -13,7 +13,7 @@ website that allows developers to store and manage their code using git..
 -> ~ tilde sign represents the current directory or folder
 
 
-step1.) configuring git 
+step1. configuring git 
 git config --global user.name "skygupta07"
 git config --global user.email "mailfromakashgupta@gmail.com"
 git config --list       => it lists all the git user collabed with the current machine
@@ -59,7 +59,7 @@ git add <file-name>
 git add .          -> issey saare file aa jaenge...
 
 2. commit -> it is the record of change
-git commit -m "some message"
+git commit -m "some message" 
 
 ----- -----       -----
 
