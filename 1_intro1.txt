@@ -9,6 +9,7 @@ website that allows developers to store and manage their code using git..
 -> .md means mark down
 -> commit karna matlab change final karna
 -> Readme mai changes karna is like html likhna
+-> book ki first page ki tarah readme mai bhi aap kahani likh sakte ho....
 -> git --version  to know the installed version of git in your machine
 -> ~ tilde sign represents the current directory or folder
 
@@ -91,7 +92,7 @@ ko desired folder pe set kiya then
 4. git add .
 5. git commit -m "message of what changes you performed"
 6. git push origin BranchMain
-add commit then push
+init repo url add commit push
 
 -----------   ------
 
