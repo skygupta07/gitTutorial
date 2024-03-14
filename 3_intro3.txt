@@ -118,11 +118,18 @@ any changes...
 
 
 
+// to remove directory
+rmdir .git 
+A       for confirmation 
 
 
 
+to delete a single folder or file from the whole code you uploaded 
+git rm --cached -r 63_graph2-traversal     
 
 
+// aapka pura pura code hai ...and you want ki some particular folder git track na kare to...
+ussey aap simply .gitignore mai daal do....
 
 
 
