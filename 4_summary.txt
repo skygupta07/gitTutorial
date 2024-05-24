@@ -1,0 +1,14 @@
+===> push operation
+
+let's say mere ko puri folder upload karni thi to mene terminal mai jaake current directory
+ko desired folder pe set kiya then 
+1.git init
+2. go to github make a repo, copy its https wala url
+3. git remote add origin <link>
+4. git add .
+5. git commit -m "message of what changes you performed"
+6. git push origin BranchMain
+init repo url add commit push
+
+-----------   ------
+
