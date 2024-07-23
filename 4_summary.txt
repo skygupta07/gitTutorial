@@ -1,10 +1,20 @@
 ===> push operation
 
+workflow for local git....
+1. create github repo
+2. clone it on local pc
+3. make changes
+4. git add
+5. git commit
+6. git push
+
+
+
 let's say mere ko puri folder upload karni thi to mene terminal mai jaake current directory
 ko desired folder pe set kiya then 
-1.git init
+1. git init
 2. go to github make a repo, copy its https wala url
-3. git remote add origin <link>
+3. git remote add origin <link>                 (agar koi pehle se ho to git remote remove origin)
 4. git add .
 5. git commit -m "message of what changes you performed"
 6. git push origin BranchMain

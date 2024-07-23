@@ -1,0 +1,182 @@
+------ git -----
+developer's tool 
+
+our daily tasks...
+create, save, edit and save again the tasks
+
+doing versioning by timestamp
+
+==> version control system 
+-> about managing multiple versions of 
+    documents, programs, websites, etc.
+-> tracks history of collection of files.
+-> version control software keeps track of every modification to the code in a special kind of database.
+
+why vcs (version contro software)
+
+-> for individual help:
+     -> gives you a time machine for going back to earlier versions.
+     -> gives you great support for different versions (standalone, webapp,etc) of the same basic project.
+
+-> for working with team
+    -> great simplfies concurrent work , merging changes.
+
+-> management of changes to file
+    -> keep track of what changes occured.
+    -> allows people to work together.
+
+
+---- localized and centralized vcs -----------
+
+-> a localized version control system keeps local copies of the files.
+-> in centralized source control, there is a server and a client. The server is the master repository which contains all 
+of the versions of the code.
+
+-> centralized vcs ----------
+
+-> in subversion, cvs, perforce, etc. A central server repository (repo) holds the official copy of the code.
+     the server maintains the sole version history of the repo.
+
+-> you make checkouts of it to your local copy  
+     -> you make local modifications.
+     -> your changes are not versioned
+
+-> when you are done, you check in back to the server 
+     -> your checkin increments the repo version.
+
+
+=> drawbacks -----
+
+-> both approaches have the drawback that they have one single point of failure.
+-> in a localized version control systems it is the individual computer and 
+
+-> in a centralized version control systems it is the server machine. 
+   both system makes it also harder to work in parallel on different features. e.g. git, mercurial, etc,.
+
+
+---- distributed version control systems ------------
+
+-> in a distributed version control system each user has a complete local copy of a repository on his individual computer.
+
+-> in git, mercurial, etc. you don't checkout from a central repo
+    -> you clone it and pull changes from it.
+
+-> your local repo is a complete copy of everything on the remote server 
+    -> yours is just as good as theirs.
+
+-> many operations are local 
+     ->check in/out from local repo.
+      -> commit changes to local repo.
+      -> local repo keeps version history.
+
+when you are ready you can push changes back to server.
+
+=== git =====
+-> git is a distributed version control system.
+-> git is a tree history storage system.
+-> git is content tracking management system.
+it has ease and speed...
+
+
+---git aur linux dono ke creator/founder linus trovalds hi hai..
+he created git in 2005
+
+
+
+---- installing git ---------
+
+git keep track of file not directories....
+git add .        yaha dot matlab current working directory......
+
+
+---- local repository setup -----------
+
+1. set the name and email for git to use when you commit 
+
+git config --global user.name "akash gupta"
+git config --global user.email "mailfromakashgupta@gmail.com"
+
+step2 -> create a directory on github 
+
+step3 -> initialize dir with
+                git init
+
+step4 -> create Readme.md file 
+          -> git add (staging)
+          -> git commit (local commit)
+
+-------- remote repository -------
+
+1. create remote repository on: 
+     -> github, bitbucket, codecommit, etc.
+
+2. clone repo to local 
+     -> git clone url
+
+3. local to remote integration 
+    -> cd to local repo
+   -> git remote add origin <https wala link>
+   -> git branch -M main                       ab wo force nahi lagana padega and sahi jagah jayega bhi....
+    -. git commit -m "code"
+     -> git push -u origin main
+      -> git pull -u origin main     (to fetch latest changes)
+
+
+
+
+-> maan lo kisi file mai aapne change kiya and git pe update kar diya.....
+then you can see the changes made in the terminal also ....
+
+
+method 1
+
+git log 
+then 
+git show <commit id>
+
+method2
+
+git log --oneline 
+then 
+git show <commit id>
+
+
+last mai git pull bhi karke dekh liya.....
+
+ 
+--------------
+
+git config --global user.name 
+        issey abhi kaun user local aur remote se connected hai wo pata lag jaega....
+
+git config --global user.email
+           uska email pata lag jaega...
+
+git remote -v        command is used to display the urls of the remote repositories associated with your local git repo..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,16 +1,9 @@
 /*
-workflow for local git....
-1. create github repo
-2. clone it on local pc
-3. make changes
-4. git add
-5. git commit
-6. git push
-
 
 ------------------
 if there are multiple people working on same project with different modules assigned to
-them then you create git branches
+them then you create git branches to collaborate effectively...
+
 ----branch commands-------
 1. git branch    => to check branch
 2. git branch -M main       => to rename branch
@@ -22,7 +15,7 @@ the branch in which you are currently lying....(#kaalidas rule)
 4. git checkout -b <new-branch-name>    (to create new branch)
 5. git checkout <branchname>      =>to navigate through branches
 
-----------   merging code-----------
+----------   merging code   -----------
 => two ways to merge your code 
 way 1 -> directly from command line (vs code)
 way2 -> create a PR(pull request)

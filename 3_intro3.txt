@@ -1,10 +1,11 @@
 /*
 
 git allows to maintain history of the project that at what particular time which person 
-made and what change he made
+made and what changes he made
 
 repositories are basically folders where all our changes are saved
 git -> version control system (just like electronic mail facility)
+
 while github is an online interface which provides facility to host code online(analogy to 
 gmail , outlook , yahoomail) 
 
@@ -16,7 +17,7 @@ i.e. ls -a      shows all the hidden command
 
 -> git status             => tells us about the current status of the project
 
--> you can relate the add commmit push with relative going to stage  clicking pic 
+-> you can relate the add commmit push with ACP relative going to stage  clicking pic 
 and then saving it in the wedding album
 
 -> git add .     => put all the untracked file (of the current directory) 

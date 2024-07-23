@@ -9,9 +9,12 @@ website that allows developers to store and manage their code using git..
 -> .md means mark down
 -> commit karna matlab change final karna
 -> Readme mai changes karna is like html likhna
--> book ki first page ki tarah readme mai bhi aap kahani likh sakte ho....
--> git --version  to know the installed version of git in your machine
--> ~ tilde sign represents the current directory or folder
+-> book ki first page ki tarah readme mai bhi aap index likh sakte ho....and as a guide 
+-> aur path bata sakte ho ki iss tarah se karoge to aapki website chal jaegi....
+-> git --version  to know the installed version of git in your machine...
+-> ~ tilde(urf colgate) sign represents the current directory or folder
+cd ka matlab hi hota hai change directory .... arey bhai... change file jaisa kucch nahi hota...
+file to bas touch(create) ya cat (view) kar sakte ho bas..
 
 
 step1. configuring git 
@@ -22,7 +25,7 @@ git config --list       => it lists all the git user collabed with the current m
 
 -----------
 -> although we can write all our code in the terminal itself but since we want to 
-collab our coding working with the git so we will use the code editor i.e. vs code
+collab our coding work with the git so we will use the code editor i.e. vs code
 
 -> local -> means file saved locally on pc
 -> remote -> on github => github ki repos are remote..
@@ -33,8 +36,8 @@ clone means creating a repository or folder on our local machine
 -> terminal mai % se just pehle hume location batata hai ki hum abhi kaha hai...
 -> cd means change directory...
 -> tab used for autocompletion of directories name...
--> ls means list files 
--> ls -a means list all files that git is tracking (helpful to check whether our file is
+-> ls  (johri command) means list files 
+-> ls -a (asli johri command) means list all files that git is tracking (helpful to check whether our file is
 being tracked simultaneously on git also.. => .git will be there indicating that the current
 file is being tracked by git)
  
@@ -43,7 +46,7 @@ file is being tracked by git)
 -----------     -----   ------
 
 -> git status => displays the state of the code
-M represents that the file has been modified
+M(yellow mai) represents that the file has been modified
 
 there can be possible four status of the file 
 1. untracked -> new files that git doesn't track
@@ -66,11 +69,15 @@ git commit -m "some message"
 
 3. push-> upload local repo content to remote repo
 git push origin main
+git push origin main --force
+git push origin master --force
+
+
 
 origin-> git ki main folder ho gayi
 main -> bydefault the first branch where code gets commited
 
-=> cd.. se ek directory back ho jaoge...
+=> cd.. se ek directory back ho jaoge..
 => mkdir    to create a new directory urf folder
 
 ---------
